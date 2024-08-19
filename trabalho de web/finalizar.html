@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/Logo Clara.png">
+    <link rel="stylesheet" href="style.css" >
+    <title>Hamburguer Gourmet Estácio</title>
+</head>
+<header>
+<img src="imagem/Logo escura.png" width="100"alt="100">
+        <nav><h1>Hamburguer Gourmet Estácio</h1></nav>
+</header>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <h1>Agradecemos pelo seu pedido!</h1>
+    <p>Seu pedido está sendo preparado e será entregue em breve.</p>
+    
+    <div id="tempo-de-espera"></div>
+
+    <script>
+        // Simulando um tempo de espera aleatório entre 20 e 40 minutos
+        var tempoDeEsperaEmMinutos = Math.floor(Math.random() * (40 - 20 + 1)) + 20;
+
+        // Exibindo o tempo de espera na página
+        var tempoDeEsperaElemento = document.getElementById("tempo-de-espera");
+        tempoDeEsperaElemento.innerHTML = "Tempo estimado de espera: " + tempoDeEsperaEmMinutos + " minutos";
+    </script>
+    <style>
+        footer {
+            display: flex;
+            flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha quando não houver espaço suficiente */
+        }
+        footer p {
+            flex: 1; /* Faz com que cada elemento ocupe uma parte igual do espaço disponível */
+            width: 50%; /* Define a largura de cada elemento para 50% da largura do rodapé */
+            box-sizing: border-box; /* Faz com que a largura inclua a largura do padding e da borda */
+        }
+        footer a img {
+            display: block; /* Garante que as imagens não tenham margens indesejadas */
+            margin: 0 auto; /* Centraliza as imagens horizontalmente dentro de seus respectivos links */
+        }
+    </style>
+    </head>
+    <body>
+        <img src="imagem/intre.png"alt="400"><br>
+        <a href="index.html"><button>Retornar ou Começo</button></a>
+<footer>
+    <p>INSTITUCIONAL<br>
+    <a href="cardapio.html">Cardápio</a><br>
+    <a href="conta.html">Contato</a><br>
+    <a href="https://maps.app.goo.gl/v3QCyWjGHS1Bponm9">Localização</a><br>
+    <a href="pedido.html">Pedido</a></p>
+    <p>CARDÁPIO<br>
+    <a href="hambur.html">Hambúrguer</a><br>
+    <a href="bebi.html">Bebidas</a><br>
+    <a href="sobri.html">Sobremesas</a><br>
+    <a href="por.html">Porções</a></p>
+    <a href="https://maps.app.goo.gl/v3QCyWjGHS1Bponm9"><img src="imagem/mapa.jpg" width="60" alt="Mapa"></a><br>
+    <a href="http://wa.me/55(62)984021425"><img src="imagem/wha.png" width="50" alt="WhatsApp"></a><br>
+    <a href="https://www.instagram.com/mateuspereiradocou?igsh=a3k2aGd6am9kMHAx"><img src="imagem/ins.png" width="50" alt="Instagram"></a>
+    <a href="https://www.facebook.com/profile.php?id=100010659498491&mibextid=ZbWKwL"><img src="imagem/fec.png" width="40" alt="Facebook"></a>
+</footer>
